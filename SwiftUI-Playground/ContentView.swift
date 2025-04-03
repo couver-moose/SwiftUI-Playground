@@ -15,6 +15,7 @@ struct ContentView: View {
                     NavigationLink("Safari Sheet", destination: SafariSheetView())
                     NavigationLink("QR-Code Generator", destination: QRCodeView())
                     NavigationLink("Parallax Effekt", destination: StretchyHeaderView())
+                    NavigationLink("Snappy Header", destination: SnappyHeaderView())
                 }
             }.navigationTitle("🕹️ SwiftUI-Playground")
         }

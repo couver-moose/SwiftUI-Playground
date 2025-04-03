@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31895A92D9ECDFC00A358DE /* SnappyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31895A82D9ECDFC00A358DE /* SnappyHeaderView.swift */; };
 		A38D720F2D98C2AF0060905A /* StrechtyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D720E2D98C2830060905A /* StrechtyHeaderView.swift */; };
 		A3BAF4472D87375D00574B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BAF4412D87375D00574B11 /* Preview Assets.xcassets */; };
 		A3BAF4482D87375D00574B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BAF4432D87375D00574B11 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31895A82D9ECDFC00A358DE /* SnappyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappyHeaderView.swift; sourceTree = "<group>"; };
 		A38D720E2D98C2830060905A /* StrechtyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrechtyHeaderView.swift; sourceTree = "<group>"; };
 		A3BAF4302D87374C00574B11 /* SwiftUI-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BAF4412D87375D00574B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A31895A72D9ECDCA00A358DE /* Snappy Header */ = {
+			isa = PBXGroup;
+			children = (
+				A31895A82D9ECDFC00A358DE /* SnappyHeaderView.swift */,
+			);
+			path = "Snappy Header";
+			sourceTree = "<group>";
+		};
 		A38D720D2D98C2670060905A /* Parallax */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 				A3BAF4502D873D7800574B11 /* QRCode */,
 				A3BAF44B2D87376000574B11 /* Safari */,
 				A38D720D2D98C2670060905A /* Parallax */,
+				A31895A72D9ECDCA00A358DE /* Snappy Header */,
 			);
 			path = "SwiftUI-Playground";
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 				A38D720F2D98C2AF0060905A /* StrechtyHeaderView.swift in Sources */,
 				A3BAF4522D873DE300574B11 /* QRCodeView.swift in Sources */,
 				A3BAF44A2D87375D00574B11 /* SwiftUI_PlaygroundApp.swift in Sources */,
+				A31895A92D9ECDFC00A358DE /* SnappyHeaderView.swift in Sources */,
 				A3BAF44D2D8737F500574B11 /* SafariSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
